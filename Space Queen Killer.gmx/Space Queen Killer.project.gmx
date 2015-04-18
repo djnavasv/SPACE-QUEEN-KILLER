@@ -9,7 +9,9 @@
     <sprites name="Entities">
       <sprite>sprites\sprite_player</sprite>
       <sprite>sprites\sprite_bullet</sprite>
+      <sprite>sprites\sprite_cursor</sprite>
     </sprites>
+    <sprite>sprites\sprite3</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -17,10 +19,12 @@
     <objects name="Entities">
       <object>objects\object_player</object>
       <object>objects\object_bullet</object>
+      <object>objects\object_cursor</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\Level01</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
